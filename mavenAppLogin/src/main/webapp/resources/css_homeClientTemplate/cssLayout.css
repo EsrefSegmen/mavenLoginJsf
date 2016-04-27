@@ -1,0 +1,576 @@
+
+#top {
+    position: relative;
+    background-color: #003333;
+    color: white;
+    padding: 5px;
+    margin: 0px 0px 10px 0px;
+    height: 15%;
+}
+
+#bottom {
+    position: relative;
+    background-color: #003333;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+     height: 5%;
+}
+
+#left {
+    float: left;
+    background-color: #ece3a5;
+    padding: 5px;
+    width: 200px;
+     height: 85%;
+}
+
+#right {
+    float: right;
+    background-color: #ece3a5;
+    padding: 5px;
+    width: 150px;
+}
+
+.center_content {
+    position: relative;
+    background-color: #dddddd;
+    padding: 5px;
+     height: 800px;
+}
+
+.left_content {
+    background-color: #dddddd;
+    padding: 5px;
+    margin-left: 210px;
+     height: 85%;
+}
+
+.right_content {
+    background-color: #dddddd;
+    padding: 5px;
+    margin: 0px 170px 0px 170px;
+     height: 85%;
+}
+
+#top a:link, #top a:visited {
+  color: white;
+  font-weight : bold;
+  text-decoration: none;
+}
+
+#top a:link:hover, #top a:visited:hover  {
+  color: black;
+  font-weight : bold;
+  text-decoration : underline;
+}
+
+
+        html, body {
+            height: 100%;
+            overflow: hidden;
+        }
+        body {
+            background-color: #fff;
+            font-family: sans-serif;
+            margin: 0 5px;
+        }
+        h1 {
+            font-weight: normal;
+            font-size: 140%;
+        }
+        #senaryo {
+
+        }
+        #blocklyDivOrg {
+            float: left;
+            height: 85%;
+            width: 45%;
+            margin-top: 20px;
+            margin-left: 0px;
+            border-radius: 10px;
+            box-shadow: 0 6px #999;
+        }
+
+        #blocklyDiv {
+            float: left;
+            height: 100%;
+            width: 100%;
+            margin-top: 0px;
+            margin-left: 0px;
+            border-radius: 10px;
+            box-shadow: 0 6px #999;
+            font-family: monospace;
+            font-size: smaller;
+            max-height: 99%;
+        }
+        #blocklyDivAll {
+            float: left;
+            height: 85%;
+            width: 45%;
+            margin-top: 00px;
+            margin-left: 0px;
+            border-radius: 10px;
+            box-shadow: 0 6px #999;
+        }
+
+        #blocklyDiv1 {
+            border: 3px;
+            float: top;
+            height: 20%;
+            width: 100%;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+
+
+
+
+        #code {
+            font-family: monospace;
+            font-size: larger;
+            height: 100%;
+            width: 100%;
+            max-width: 111ex;
+        }
+
+        .buttoneski {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+
+        .buttoneski {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+
+
+
+
+
+
+        .buttonTab {
+            display: inline-block;
+            padding: 6px 12px;
+            font-size: 9px;
+            cursor:  pointer;
+            text-align: center;	
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 2px;
+            box-shadow: 0 3px #999;
+        }
+
+        .buttonTab:hover {background-color: #3e8e41}
+
+        .buttonTab:active {
+            background-color: #3e8e41;
+            box-shadow: 0 2px #666;
+            transform: translateY(1px);
+        }
+
+        .button11 {
+            display: inline-block;
+            padding: 4px 8px;
+            font-size: 8px;
+            cursor: pointer;
+            text-align: center;	
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 3px #999;
+        }
+
+        .button11:hover {background-color: #3e8e41}
+
+        .button11:active {
+            background-color: #3e8e41;
+            box-shadow: 0 2px #666;
+            transform: translateY(1px);
+        }
+
+        .button12 {
+            display: inline-block;
+            padding: 4px 8px;
+            font-size: 8px;
+            cursor: pointer;
+            text-align: center;	
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 3px #999;
+        }
+
+        .button12:hover {background-color: #3e8e41}
+
+        .button12:active {
+            background-color: #3e8e41;
+            box-shadow: 0 2px #666;
+            transform: translateY(1px);
+        }
+
+
+
+
+
+        .button1 {
+            display: inline-block;
+            padding: 4px 8px;
+            font-size: 8px;
+            cursor: pointer;
+            text-align: center;	
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color:#116659;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 3px #999;
+        }
+
+        .button1:hover {background-color: #3e8e41}
+
+        .button1:active {
+            background-color: #3e8e41;
+            box-shadow: 0 2px #666;
+            transform: translateY(1px);
+        }
+
+
+
+
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 12px;
+            cursor: pointer;
+            text-align: center;	
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 6px #999;
+        }
+
+        .button:hover {background-color: #3e8e41}
+
+        .button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 3px #666;
+            transform: translateY(4px);
+        }
+
+        .maintable{
+            relative:top;
+            background-color: #4CAF50;
+            height:150px;;
+            text-align:center;
+            background-color:#4CAF50;
+            color:#457fff;
+
+        }
+
+
+        #header {
+            background-color:#0f3d0f;
+            color:white;
+            text-align:center;
+            padding:1px;
+
+
+        }
+        #nav {
+
+            background-color:#446600;
+
+            height: 80%;
+
+            width: 1%;
+            float:left;
+            padding:5px;	      
+        }
+        #section {
+            width:98%;
+            height:80%;
+            float:left;
+            padding:0px;
+            background-color: #ffffb3; 
+        }
+        #footer {
+            background-color:#0f3d0f;
+            color:white;
+            clear:both;
+            text-align:center;
+            padding:5px;	 	 
+        }
+
+
+        select option{
+            font-size: 7pt;
+        }
+        select option:first-child {
+            font-size: 7pt;
+        }
+        .select_join {
+            width: 95%;
+            height: 15px;
+            overflow: hidden;
+            background: no-repeat right #FEFEFE;
+            border: #FEFEFE 1px solid;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            -webkit-box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+            box-shadow: inset 0px 0px 5px 1px #FEFEFE;
+        }
+        .select_join select {
+            background: transparent;
+            width: 100%;
+            font-size:7pt;
+            color:grey;
+            border: 0;
+            border-radius: 0;
+            height: 15px;
+            -webkit-appearance: none;
+        }
+        .select_join select:focus {
+            outline: none;
+        }
+
+        /*
+        body {
+            font-family:Arial;
+            font-size:12px;
+        }
+         
+         We remove the margin, padding, and list style of UL and LI components */
+
+
+
+        #menuwrapper ul, #menuwrapper ul li{
+            font-size: 9pt;
+            margin:0;
+            padding:0;
+            list-style:none;
+        }
+
+        /* We float the li list to the left and apply background color and border right white and set the height to 25px. Note you can ignore the height if you do not want
+        */
+        #menuwrapper ul li{
+            float:left;
+            background-color:#238f23;
+            border-right:solid 1px white;
+            height:25px;
+            line-height:25px;
+        }
+
+        /* We apply the background hover color when user hover the mouse over of the li component */
+        #menuwrapper ul li:hover{
+            background-color:#0f6d0f;
+            position:relative;
+        }
+
+        /* We apply the link style */
+        #menuwrapper ul li a{
+            padding:0px 5px;
+            color:#ffffff;
+            display:inline-block;
+            text-decoration:none;
+        }
+
+        /**** SECOND LEVEL MENU ****/
+        /* We make the position to absolute for flyout menu and hidden the ul until the user hover the parent li item */
+        #menuwrapper ul li ul{
+            position:absolute;
+            display:none;
+        }
+
+        /* When user has hovered the li item, we show the ul list by applying display:block, note: 25px is the menu height.  */
+        #menuwrapper ul li:hover ul{
+            left:0;
+            top:25px;
+            display:block;
+        }
+
+        /* As the parent li has float:left property, we overwrite for the submenu (level 2) to float none (normal position)  */
+        #menuwrapper ul li ul li{
+            float:none;
+            width:200px;
+            background-color:#cae25a;
+        }
+
+        /* We change the background color for the level 2 submenu when hovering the menu */
+        #menuwrapper ul li:hover ul li:hover{
+            background-color:#b1b536;
+        }
+
+        /* We style the color of level 2 links */
+        #menuwrapper ul li ul li a{
+            color:#454444;
+            display:inline-block;
+            width:200px;
+        }
+
+        /**** THIRD LEVEL MENU ****/
+        /* We need to hide the 3rd menu, when hovering the first level menu */
+        #menuwrapper ul li:hover ul li ul{
+            position:absolute;
+            display:none;
+        }
+
+        /* We show the third level menu only when they hover the second level menu parent */
+        #menuwrapper ul li:hover ul li:hover ul{
+            display:block;
+            left:150px;
+            top:0;
+        }
+
+        /* We change the background color for the level 3 submenu*/
+        #menuwrapper ul li:hover ul li:hover ul li{
+            background:#86d3fa;
+        }
+
+        /* We change the background color for the level 3 submenu when hovering the menu */
+        #menuwrapper ul li:hover ul li:hover ul li:hover{
+            background:#358ebc;
+        }
+
+        /* We change the level 3 link color */
+        #menuwrapper ul li:hover ul li:hover ul li a{
+            color:#ffffff;
+        }
+
+        /* Clear float */
+        .clear{
+            clear:both;
+        }
+
+
+
+
+
+        #kullaniciAyarlari ul, #kullaniciAyarlari ul li{
+            font-size: 9pt;
+            margin:0;
+            padding:0;
+            list-style:none;
+            border-radius: 3px;
+            box-shadow: 0 1px #999;
+        }
+
+        /* We float the li list to the left and apply background color and border right white and set the height to 25px. Note you can ignore the height if you do not want
+        */
+        #kullaniciAyarlari ul li{
+            float:left;
+            background-color:#238f23;
+            border-right:solid 1px white;
+            height:25px;
+            line-height:25px;
+
+        }
+
+        /* We apply the background hover color when user hover the mouse over of the li component */
+        #kullaniciAyarlari ul li:hover{
+            background-color:#0f6d0f;
+            position:relative;
+        }
+
+        /* We apply the link style */
+        #kullaniciAyarlari ul li a{
+            padding:0px 5px;
+            color:#ffffff;
+            display:inline-block;
+            text-decoration:none;
+        }
+
+        /**** SECOND LEVEL MENU ****/
+        /* We make the position to absolute for flyout menu and hidden the ul until the user hover the parent li item */
+        #kullaniciAyarlari ul li ul{
+            position:absolute;
+            display:none;
+        }
+
+        /* When user has hovered the li item, we show the ul list by applying display:block, note: 25px is the menu height.  */
+        #kullaniciAyarlari ul li:hover ul{
+            left:0;
+            top:25px;
+            display:block;
+        }
+
+        /* As the parent li has float:left property, we overwrite for the submenu (level 2) to float none (normal position)  */
+        #kullaniciAyarlari ul li ul li{
+            float:none;
+            width:150px;
+            background-color:#cae25a;
+        }
+
+        /* We change the background color for the level 2 submenu when hovering the menu */
+        #kullaniciAyarlari ul li:hover ul li:hover{
+            background-color:#b1b536;
+        }
+
+        /* We style the color of level 2 links */
+        #kullaniciAyarlari ul li ul li a{
+            color:#454444;
+            display:inline-block;
+            width:120px;
+        }
+
+        /**** THIRD LEVEL MENU ****/
+        /* We need to hide the 3rd menu, when hovering the first level menu */
+        #kullaniciAyarlari ul li:hover ul li ul{
+            position:absolute;
+            display:none;
+        }
+
+        /* We show the third level menu only when they hover the second level menu parent */
+        #menuwrapper ul li:hover ul li:hover ul{
+            display:block;
+            left:150px;
+            top:0;
+        }
+
+        /* We change the background color for the level 3 submenu*/
+        #kullaniciAyarlari ul li:hover ul li:hover ul li{
+            background:#86d3fa;
+        }
+
+        /* We change the background color for the level 3 submenu when hovering the menu */
+        #menuwrapper ul li:hover ul li:hover ul li:hover{
+            background:#358ebc;
+        }
+
+        /* We change the level 3 link color */
+        #kullaniciAyarlari ul li:hover ul li:hover ul li a{
+            color:#ffffff;
+        }
+
+        /* Clear float */
+        .clear{
+            clear:both;
+        }
+
